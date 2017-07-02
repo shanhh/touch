@@ -1,0 +1,69 @@
+{
+    "code": 1000,
+    "data": {
+        "actinfo": {
+            "m": "满89元减12元",
+            "abtype": 4,
+            "aeTypeInfo": null,
+            "activityExtendList": []
+        },
+        "mzinfo": {
+            "count": 1,
+            "data": [
+                [
+                    {
+                        "m": "满1元即赠69元优惠券，限赠一次，数量有限，赠完即止",
+                        "type": 3,
+                        "is_coudan": 0,
+                        "info": [
+                            {
+                                "startTime": "2017-04-27 10:00",
+                                "endTime": "2018-05-04 10:00",
+                                "aeMoney": 9,
+                                "aeMinMoney": 89,
+                                "abBrandCoupon": 2,
+                                "abEndtimeExtend": 604800
+                            },
+                            {
+                                "startTime": "2017-04-27 10:00",
+                                "endTime": "2018-05-11 10:00",
+                                "aeMoney": 15,
+                                "aeMinMoney": 139,
+                                "abBrandCoupon": 2,
+                                "abEndtimeExtend": 604800
+                            },
+                            {
+                                "startTime": "2017-04-27 10:00",
+                                "endTime": "2018-05-11 10:00",
+                                "aeMoney": 18,
+                                "aeMinMoney": 189,
+                                "abBrandCoupon": 2,
+                                "abEndtimeExtend": 604800
+                            },
+                            {
+                                "startTime": "2017-04-27 10:00",
+                                "endTime": "2018-05-11 10:00",
+                                "aeMoney": 27,
+                                "aeMinMoney": 259,
+                                "abBrandCoupon": 2,
+                                "abEndtimeExtend": 604800
+                            }
+                        ]
+                    }
+                ]
+            ]
+        },
+        "tbinfo": "",
+        "ptinfo": {
+            "goods_id": "6643272",
+            "tuan_num": "2",
+            "type": 2,
+            "bcsub": "30.00",
+            "cprice": "98.00",
+            "spare_price": "30.00",
+            "tuan_desc": "立省30.00元",
+            "tuan_url": "https://tuan.juanpi.com/pintuan/shop/41217929?mobile=1&qmshareview=1"
+        },
+        "mainfo": ""
+    }
+}

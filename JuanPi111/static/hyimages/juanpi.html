@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:8080/#/today -->
+<html style="font-size: 100px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.3333333333333333, minimum-scale=0.3333333333333333, maximum-scale=0.3333333333333333, user-scalable=no">
+    <title>juanpi</title>
+  <style type="text/css">/*
+	不选最‘贵’的，只选最对的！
+	维护：李大泽 mail@lidaze.com
+*/
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 100px;
+}
+/*清除外边距*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, figure, /*结构元素*/
+dl, dt, dd, ul, ol, li, /*列表元素*/
+fieldset, lengend, button, input, textarea, /*表单元素*/
+th, td, /*表格元素*/
+pre /*文本格式元素*/ {
+    margin: 0;
+}
+
+body {
+    background-color:  #f4f4f8;
+}
+/*清除内边距*/
+ul, ol, menu {
+    padding: 0;
+}
+
+
+/*重置列表元素*/
+ul, ol {
+    list-style: none;
+}
+
+
+/*将字体扶正*/
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+
+/*清下划线*/
+a {
+    text-decoration: none;
+    color: black;
+}
+/*鼠标略过a标签，显示下划线*/
+a:hover {
+    /*text-decoration: underline;*/
+}
+
+
+/*清浮动*/
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+</style><style type="text/css">
+#app .tabbar{
+     width: 100%;
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     height: 147px;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align:center;
+         -ms-flex-align:center;
+             align-items:center;
+     -ms-flex-pack:distribute;
+         justify-content:space-around;
+     background-color: #fff;
+     color: gray; 
+     line-height: 147px;
+     border-top: 1px solid #f4f4f8;
+}
+#app .tabbar a {
+   text-decoration: none;
+   font-size: 36px;
+}
+
+</style><style type="text/css">
+#today{
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	font-size: 0.987179rem;
+	background-color: #fff;
+}
+/*上面的logo部分*/
+.logo{
+	width: 100%;
+	height: 1rem;
+	padding-left: 1.08rem;
+	padding-right: 1.08rem;
+	padding-top:0.3rem;
+}
+.logo img{
+	height: 0.72rem;
+	display: block;
+	padding: 0.102564rem 0;
+	text-align: center;
+	padding-left: 3.9rem;
+}
+#today ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	white-space: nowrap;
+    overflow: auto;
+    overflow-y: hidden;
+}
+#today ul li{
+	font-size: 0.42rem;
+	height: 1.14rem;
+	line-height: 1.14rem;
+	text-align: center;
+	color: #333;
+	white-space: nowrap;
+	box-sizing:border-box;
+	padding: 0 0.57rem;
+	margin:auto;
+	background-color: #fff;
+}
+#today ul li:hover{
+	color: #ff464e;
+	border-bottom: 0.04rem solid #ff464e;
+}
+</style><style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*女装分类菜单*/
+.kindClass[data-v-c9c325c2]{
+	width: 100%;
+}
+.kindClass div[data-v-c9c325c2]{
+	width: 100%;
+	height: 3rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.kind[data-v-c9c325c2]{
+	width: 100%;
+	height: 100%;
+}
+.kind img[data-v-c9c325c2]{
+	height:100%; 
+	position: relative;
+	box-sizing:border-box;
+} 
+/*线*/
+.line[data-v-c9c325c2]{
+	width: 100%;
+	height: 0.4rem;
+	background-color: #f4f4f8;
+}
+/*搭配 热销 一周流行*/
+.clothing[data-v-c9c325c2]{
+	width:100%;
+}
+.clothing div[data-v-c9c325c2]:nth-of-type(1) {
+	width: 50%;
+	height: 7.55136rem;
+}
+.clothing div:nth-of-type(1) img[data-v-c9c325c2]{
+	width: 100%;
+	float: left;
+	height: 100%;
+}
+/*.clothing div:nth-of-type(2),.clothing div:nth-of-type(3){
+	width: 50%;
+	height: 
+}
+.clothing div:nth-of-type(2),.clothing div:nth-of-type(3) img{
+	width: 100%;
+	height: 
+}*/
+</style><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.43354a30e0dbea828983.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.62f343b1dbb4844669d6.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.e2ae8b3af5e8cf145e4a.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.b88dedbd1b1217143ac8.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.926ebc0a96f8a5e52c66.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.c3797bb0bc60bf1d2111.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.7fe0d9f2f46ff35aeff5.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.8548a5c6d7f019dd13bd.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.9f0098eb173cde7302ce.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.74c1bdab0001983e08cc.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.6a1068270f3b51899910.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.aba7c80b683645bc93eb.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.23b07582842bf33195b1.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.46eb49f6f6626b29f743.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.3bdf83500d8f34fd2a88.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.a60b51133b82900b0311.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.63e27bc65d8f1e91cd35.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.b4d2dc42f20bd0d01268.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.08883906a3af25f276fb.hot-update.js.下载"></script><script type="text/javascript" charset="utf-8" src="./juanpi_files/0.cb03740404d739325b4a.hot-update.js.下载"></script></head>
+  <body>
+    <div id="app"><div class="tabbar"><a href="http://localhost:8080/#/today" class="router-link-exact-active router-link-active">今日上新</a> <a href="http://localhost:8080/#/direct" class="">直发仓</a> <a href="http://localhost:8080/#/global" class="">全球购</a> <a href="http://localhost:8080/#/car" class="">购物车</a> <a href="http://localhost:8080/#/mine" class="">我的</a></div> <div id="today"><div class="logo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAwCAYAAAGZEU9ZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1MjNkZDMyYS1jZTJhLTRlNDUtOTQxYy0yMTE4OGQyZWM0NzYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NkYzNkY0MzgwMDUzMTFFNkFFQTJDMTc1NTJCRTdCNTgiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NkYzNkY0MzcwMDUzMTFFNkFFQTJDMTc1NTJCRTdCNTgiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Yjk5YTMzNi1jZTEyLTRkOTItOGQwNS1lMjFjYWVmNzM4MGIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QjdFRTYyOURFMEQ4RTQxMThCNzdCRkE1OTQ0NEIyQTYiLz4g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"></div> <ul class="topBar"><li>上新</li><li>女装</li><li>鞋包</li><li>母婴</li><li>数码</li><li>居家</li><li>男士</li><li>美妆</li><li>美食</li></ul> <div data-v-c9c325c2="" id="dress"><div data-v-c9c325c2="" class="kindClass"><div data-v-c9c325c2=""><div data-v-c9c325c2="" class="kind"><img data-v-c9c325c2="" src="./juanpi_files/59112f17ad0a49f2ae8b45ab_200x212.png"></div><div data-v-c9c325c2="" class="kind"><img data-v-c9c325c2="" src="./juanpi_files/59112f1ca43d1f1c9a23fcf4_200x212.png"></div><div data-v-c9c325c2="" class="kind"><img data-v-c9c325c2="" src="./juanpi_files/59112f21a43d1f1dca0c7780_200x212.png"></div><div data-v-c9c325c2="" class="kind"><img data-v-c9c325c2="" src="./juanpi_files/59112f27ad0a49d6998b45b3_200x212.png"></div></div></div> <div data-v-c9c325c2="" class="kindClass"><div data-v-c9c325c2=""><div data-v-c9c325c2="" class="kind"><img data-v-c9c325c2="" src="./juanpi_files/59112f47ad0a49d0988b45bd_200x212.png"></div><div data-v-c9c325c2="" class="kind"><img data-v-c9c325c2="" src="./juanpi_files/59112f4bad0a4920968b45c5_200x212.png"></div><div data-v-c9c325c2="" class="kind"><img data-v-c9c325c2="" src="./juanpi_files/59112f50a43d1f23f00f7600_200x212.png"></div><div data-v-c9c325c2="" class="kind"><img data-v-c9c325c2="" src="./juanpi_files/59112f55a43d1f18bc6cdfd5_200x212.png"></div></div></div> <div data-v-c9c325c2="" class="line"></div> <div data-v-c9c325c2="" class="clothing"><div data-v-c9c325c2=""><img data-v-c9c325c2="" src="./juanpi_files/5930c915ad0a49eabf8b459d_375x456.png"></div><div data-v-c9c325c2="" style="
+    width: 50%;
+"><img data-v-c9c325c2="" src="./juanpi_files/5934ac46ad0a49ee578b456f_375x228.png" style="
+    width: 100%;
+"></div><div data-v-c9c325c2=""><img data-v-c9c325c2="" src="./juanpi_files/5934ac50a43d1f4a4049d7b4_375x228.jpg"></div></div></div></div></div>
+    <!-- built files will be auto injected -->
+  <script type="text/javascript" src="./juanpi_files/app.js.下载"></script>
+  <script type="text/javascript">
+  	(function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+              var clientWidth = docEl.clientWidth;
+              if (!clientWidth) return;
+              docEl.style.fontSize = 33.333333333333 * (clientWidth / 414) + 'px';
+            };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+    // !function(e,t){"use strict";var i={isIPhone:/iphone/gi.test(e.navigator.appVersion),isAndroid:/android/gi.test(e.navigator.appVersion),isApp:t.cookie.indexOf("qm_device_id")!==-1};i.isAppNotWK=i.isApp&&t.cookie.indexOf("isWKWebView=1")===-1,function(){var n=t.querySelector('meta[name="viewport"]'),r=t.querySelector('meta[name="hotcss"]'),d=e.devicePixelRatio||1,a=540,s=0;if(d=d>=3?3:d>=2?2:1,i.isAndroid&&(d=1),r){var o=r.getAttribute("content");if(o){var m=o.match(/initial-dpr=([d.]+)/);m&&(d=parseFloat(m[1]));var c=o.match(/max-width=([d.]+)/);c&&(a=parseFloat(c[1]));var u=o.match(/design-width=([d.]+)/);u&&(s=parseFloat(u[1]))}}t.documentElement.setAttribute("data-dpr",d),i.dpr=d,t.documentElement.setAttribute("max-width",a),i.maxWidth=a,s&&t.documentElement.setAttribute("design-width",s),i.designWidth=s;var p=1/d;i.isIPhone&&375==e.screen.width&&i.isAppNotWK&&(p=.48);var l="width=device-width, initial-scale="+p+", minimum-scale="+p+", maximum-scale="+p+", user-scalable=no";n?n.setAttribute("content",l):(n=t.createElement("meta"),n.setAttribute("name","viewport"),n.setAttribute("content",l),t.head.appendChild(n))}(),i.px2rem=function(e,t){return t||(t=parseInt(i.designWidth,10)),320*parseInt(e,10)/t/20},i.rem2px=function(e,t){return t||(t=parseInt(i.designWidth,10)),20*e*t/320},i.remAddpx=function(e,t,n){var r=i.rem2px(e,n),d=t*i.dpr/2;return r+d},i.mresize=function(){var n=t.documentElement.getBoundingClientRect().width||e.innerWidth;return i.maxWidth&&n/i.dpr>i.maxWidth&&(n=i.maxWidth*i.dpr),!!n&&(t.documentElement.style.fontSize=20*n/320+"px",void(i.callback&&i.callback()))},i.mresize(),e.addEventListener("resize",function(){clearTimeout(i.tid),i.tid=setTimeout(i.mresize,33)},!1),e.addEventListener("load",i.mresize,!1),setTimeout(function(){i.mresize()},333),e.hotcss=i}(window,document);
+  </script>
+
+</body></html>

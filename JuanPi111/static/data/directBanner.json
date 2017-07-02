@@ -1,0 +1,427 @@
+{
+  "module_ads": {
+    "block_id": "293",
+    "multi_block": [
+      {
+        "show_type": 1,
+        "block_type": 5,
+        "split_line": "1",
+        "margin_enabled": 0,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.384,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170531/a/e/592e5e8aa43d1f112d0da828_250x288.png?iopcmd=convert&Q=88&dst=png",
+                "url": "http://m.juanpi.com/cate/1337",
+                "layout": "col",
+                "width": 0.3333,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "9127",
+                "x_record": "1_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::293::block_id::3204::img_id::9127::1_1\",\"cid\":\"490\",\"_t\":1496651439,\"_z\":\"5\",\"ab_info\":null}"
+              },
+              {
+                "pic": "//s2.juancdn.com/bao/170531/e/0/592e5ea1ad0a49bc1a8b4597_250x288.png?iopcmd=convert&Q=88&dst=png",
+                "url": "http://m.juanpi.com/cate/488",
+                "layout": "col",
+                "width": 0.3333,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "9128",
+                "x_record": "1_2",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::293::block_id::3204::img_id::9128::1_2\",\"cid\":\"490\",\"_t\":1496651439,\"_z\":\"5\",\"ab_info\":null}"
+              },
+              {
+                "pic": "//s2.juancdn.com/bao/170602/2/3/59313738ad0a49616e8b4569_250x288.png?iopcmd=convert&Q=88&dst=png",
+                "url": "https://mact.juanpi.com/fxmlsj?mjuanpi_wx=1",
+                "layout": "col",
+                "width": 0.3333,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "9129",
+                "x_record": "1_3",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::293::block_id::3204::img_id::9129::1_3\",\"cid\":\"490\",\"_t\":1496651439,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 3,
+        "split_line": "0",
+        "margin_enabled": 10,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.32,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170531/a/4/592e5cc3ad0a497f178b4595_375x240.png?iopcmd=convert&Q=88&dst=png",
+                "url": "https://mact.juanpi.com/zfc_bbqd?mjuanpi_wx=1",
+                "layout": "col",
+                "width": 0.5,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "9125",
+                "x_record": "2_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::293::block_id::3203::img_id::9125::2_1\",\"cid\":\"490\",\"_t\":1496651439,\"_z\":\"5\",\"ab_info\":null}"
+              },
+              {
+                "pic": "//s2.juancdn.com/bao/170531/5/2/592e5ccdad0a49502c8b4571_375x240.png?iopcmd=convert&Q=88&dst=png",
+                "url": "https://mact.juanpi.com/zfc_czjhs?mjuanpi_wx=1",
+                "layout": "col",
+                "width": 0.5,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "9126",
+                "x_record": "2_2",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::293::block_id::3203::img_id::9126::2_2\",\"cid\":\"490\",\"_t\":1496651439,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 1,
+        "split_line": "0",
+        "margin_enabled": 10,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.12,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170324/c/4/58d4ced5a43d1f128f11d810_750x90.png?iopcmd=convert&Q=88&dst=png",
+                "url": "http://m.juanpi.com/cate/497",
+                "layout": "col",
+                "width": 1,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "10571",
+                "x_record": "3_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::293::block_id::3646::img_id::10571::3_1\",\"cid\":\"490\",\"_t\":1496651439,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 1,
+        "split_line": "0",
+        "margin_enabled": 0,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.3333,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170602/7/0/5931091ea43d1f1d0f6d96fb_750x250.png?iopcmd=convert&Q=88&dst=png",
+                "url": "http://m.juanpi.com/cate/497",
+                "layout": "col",
+                "width": 1,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "10574",
+                "x_record": "4_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::293::block_id::3649::img_id::10574::4_1\",\"cid\":\"490\",\"_t\":1496651439,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 1,
+        "split_line": "0",
+        "margin_enabled": 10,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.12,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170330/f/a/58dce84bad0a49491a8b45a3_750x90.png?iopcmd=convert&Q=88&dst=png",
+                "url": "http://m.juanpi.com/cate/1315",
+                "layout": "col",
+                "width": 1,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "10724",
+                "x_record": "5_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::293::block_id::3695::img_id::10724::5_1\",\"cid\":\"490\",\"_t\":1496651439,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 1,
+        "split_line": "0",
+        "margin_enabled": 0,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.3333,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170602/b/7/593105dead0a49be0e8b45c5_750x250.png?iopcmd=convert&Q=88&dst=png",
+                "url": "http://m.juanpi.com/cate/1315",
+                "layout": "col",
+                "width": 1,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "10721",
+                "x_record": "6_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::293::block_id::3692::img_id::10721::6_1\",\"cid\":\"490\",\"_t\":1496651439,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 1,
+        "split_line": "0",
+        "margin_enabled": 10,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.12,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170401/8/0/58df0081a43d1f1aa01efde2_750x90.png?iopcmd=convert&Q=88&dst=png",
+                "url": "http://m.juanpi.com/cate/493",
+                "layout": "col",
+                "width": 1,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "10572",
+                "x_record": "7_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::293::block_id::3647::img_id::10572::7_1\",\"cid\":\"490\",\"_t\":1496651439,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 1,
+        "split_line": "0",
+        "margin_enabled": 0,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.3333,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170602/1/2/59310bf1a43d1f1aa86cc8ac_750x250.png?iopcmd=convert&Q=88&dst=png",
+                "url": "http://m.juanpi.com/cate/493",
+                "layout": "col",
+                "width": 1,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "10719",
+                "x_record": "8_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::293::block_id::3690::img_id::10719::8_1\",\"cid\":\"490\",\"_t\":1496651439,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 1,
+        "split_line": "0",
+        "margin_enabled": 10,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.12,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170320/2/e/58cf2f09ad0a4935908b45c3_750x90.png?iopcmd=convert&Q=88&dst=png",
+                "url": "http://m.juanpi.com/cate/492",
+                "layout": "col",
+                "width": 1,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "10723",
+                "x_record": "9_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::293::block_id::3694::img_id::10723::9_1\",\"cid\":\"490\",\"_t\":1496651439,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 1,
+        "split_line": "0",
+        "margin_enabled": 0,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.3333,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170602/0/2/59310ec3a43d1f1c6f246a0c_750x250.png?iopcmd=convert&Q=88&dst=png",
+                "url": "http://m.juanpi.com/cate/492",
+                "layout": "col",
+                "width": 1,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "10573",
+                "x_record": "10_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::293::block_id::3648::img_id::10573::10_1\",\"cid\":\"490\",\"_t\":1496651439,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "show_type": 1,
+        "block_type": 1,
+        "split_line": "0",
+        "margin_enabled": 10,
+        "data": [
+          {
+            "width": 1,
+            "triangle": 0,
+            "height": 0.128,
+            "child": [
+              {
+                "pic": "//s2.juancdn.com/bao/170310/0/f/58c20db7a43d1f63427015d8_750x96.jpg?iopcmd=convert&Q=88&dst=jpg",
+                "url": "",
+                "layout": "col",
+                "width": 1,
+                "height": 1,
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "9158",
+                "x_record": "11_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::293::block_id::3217::img_id::9158::11_1\",\"cid\":\"490\",\"_t\":1496651439,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "block_background_color": "",
+    "block_background_image": ""
+  },
+  "banner_ads": []
+}

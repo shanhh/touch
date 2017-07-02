@@ -1,0 +1,17 @@
+{
+    "code": 1000,
+    "data": [
+        {
+            "coupon_id": 103565,
+            "money": 5,
+            "min_money": 5,
+            "rule": "满5元使用",
+            "status": 1,
+            "status_txt": "立即领取",
+            "start_time": 1496196000,
+            "end_time": 1496800800,
+            "coupon_share": null,
+            "duration": "2017-05-31 10:00 至 2017-06-07 10:00"
+        }
+    ]
+}

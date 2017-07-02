@@ -1,0 +1,73 @@
+{
+  "id": "490",
+  "name": "生活仓库·直发",
+  "icon": "",
+  "default_name": "精选",
+  "default_icon": "",
+  "show_subcate": "1",
+  "show_type": "1",
+  "color_type": "1",
+  "not_color": null,
+  "color": null,
+  "show_pos": "1",
+  "type": 50,
+  "key": "{\"cdt\":{\"stock\":\"2\",\"is_show_presale\":\"0\",\"hot_type\":[\"1\",\"3\"],\"source_type\":[\"1\"],\"fcate\":\"490\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\"}}",
+  "sub_cate_list": [
+    {
+      "id": "491",
+      "name": "日用",
+      "icon": "",
+      "type": 50,
+      "key": "{\"cdt\":{\"stock\":\"2\",\"is_show_presale\":\"0\",\"hot_type\":[\"1\",\"2\"],\"source_type\":[\"1\"],\"fcate\":\"491\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\",\"fav\":\"desc\",\"sort\":\"desc\"}}"
+    },
+    {
+      "id": "492",
+      "name": "餐厨",
+      "icon": "",
+      "type": 50,
+      "key": "{\"cdt\":{\"stock\":\"2\",\"source_type\":[\"1\"],\"fcate\":\"492\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\",\"fav\":\"desc\",\"sort\":\"desc\"}}"
+    },
+    {
+      "id": "1315",
+      "name": "美食",
+      "icon": "",
+      "type": 50,
+      "key": "{\"cdt\":{\"stock\":\"2\",\"is_show_presale\":\"0\",\"hot_type\":[\"1\",\"2\"],\"source_type\":[\"1\"],\"fcate\":\"1315\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\",\"fav\":\"desc\",\"sort\":\"desc\"}}"
+    },
+    {
+      "id": "493",
+      "name": "清洁收纳",
+      "icon": "",
+      "type": 50,
+      "key": "{\"cdt\":{\"stock\":\"2\",\"is_show_presale\":\"0\",\"source_type\":[\"1\"],\"fcate\":\"493\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\",\"fav\":\"desc\",\"sort\":\"desc\"}}"
+    },
+    {
+      "id": "494",
+      "name": "数码",
+      "icon": "",
+      "type": 50,
+      "key": "{\"cdt\":{\"stock\":\"2\",\"is_show_presale\":\"0\",\"source_type\":[\"1\"],\"fcate\":\"494\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\",\"fav\":\"desc\",\"sort\":\"desc\"}}"
+    },
+    {
+      "id": "1650",
+      "name": "家用电器",
+      "icon": "",
+      "type": 50,
+      "key": "{\"cdt\":{\"stock\":\"2\",\"is_show_presale\":\"0\",\"source_type\":[\"1\"],\"fcate\":\"1650\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\",\"fav\":\"desc\",\"sort\":\"desc\"}}"
+    },
+    {
+      "id": "495",
+      "name": "家纺布艺",
+      "icon": "",
+      "type": 50,
+      "key": "{\"cdt\":{\"stock\":\"2\",\"is_show_presale\":\"0\",\"source_type\":[\"1\"],\"fcate\":\"495\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\",\"fav\":\"desc\",\"sort\":\"desc\"}}"
+    },
+    {
+      "id": "497",
+      "name": "妆扮",
+      "icon": "",
+      "type": 50,
+      "key": "{\"cdt\":{\"stock\":\"2\",\"is_show_presale\":\"0\",\"source_type\":[\"1\"],\"fcate\":\"497\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\",\"fav\":\"desc\",\"sort\":\"desc\"}}"
+    }
+  ]
+}

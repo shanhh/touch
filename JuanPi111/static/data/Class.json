@@ -1,0 +1,207 @@
+{
+    "id": "312",
+    "name": "女装",
+    "icon": "",
+    "default_name": "",
+    "default_icon": "",
+    "show_subcate": "1",
+    "show_type": "1",
+    "color_type": "1",
+    "not_color": null,
+    "color": null,
+    "show_pos": "1",
+    "type": 6,
+    "key": "312",
+    "sub_cate_list": [
+        {
+            "id": "1579",
+            "name": "最美衬衫",
+            "icon": "",
+            "type": 50,
+            "key": "{\"cdt\":{\"is_show_presale\":\"0\",\"source_type\":[\"0\",\"1\"],\"fcate\":\"1579\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\",\"fav\":\"desc\",\"sort\":\"desc\"}}"
+        },
+        {
+            "id": "339",
+            "name": "浪漫裙装",
+            "icon": "",
+            "type": 6,
+            "key": "339"
+        },
+        {
+            "id": "340",
+            "name": "时尚套装",
+            "icon": "",
+            "type": 6,
+            "key": "340"
+        },
+        {
+            "id": "341",
+            "name": "青春T恤",
+            "icon": "",
+            "type": 6,
+            "key": "341"
+        },
+        {
+            "id": "342",
+            "name": "百搭裤装",
+            "icon": "",
+            "type": 6,
+            "key": "342"
+        },
+        {
+            "id": "343",
+            "name": "舒适内衣",
+            "icon": "",
+            "type": 6,
+            "key": "343"
+        },
+        {
+            "id": "344",
+            "name": "潮流配饰",
+            "icon": "",
+            "type": 6,
+            "key": "344"
+        },
+        {
+            "id": "1580",
+            "name": "精选上衣",
+            "icon": "",
+            "type": 50,
+            "k
+            ey": "{\"cdt\":{\"is_show_presale\":\"0\",\"source_type\":[\"0\",\"1\"],\"fcate\":\"1580\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\",\"fav\":\"desc\",\"sort\":\"desc\"}}"
+        },
+        {
+            "id": "371",
+            "name": "百搭外套",
+            "icon": "",
+            "type": 6,
+            "key": "371"
+        },
+        {
+            "id": "372",
+            "name": "优雅衬衫",
+            "icon": "",
+            "type": 6,
+            "key": "372"
+        },
+        {
+            "id": "373",
+            "name": "内衣配饰",
+            "icon": "",
+            "type": 6,
+            "key": "373"
+        },
+        {
+            "id": "374",
+            "name": "时尚运动",
+            "icon": "",
+            "type": 6,
+            "key": "374"
+        },
+        {
+            "id": "375",
+            "name": "气质套装",
+            "icon": "",
+            "type": 6,
+            "key": "375"
+        },
+        {
+            "id": "417",
+            "name": "大衣外套",
+            "icon": "",
+            "type": 6,
+            "key": "417"
+        },
+        {
+            "id": "418",
+            "name": "针织毛衣",
+            "icon": "",
+            "type": 6,
+            "key": "418"
+        },
+        {
+            "id": "419",
+            "name": "打底系列",
+            "icon": "",
+            "type": 6,
+            "key": "419"
+        },
+        {
+            "id": "420",
+            "name": "美裙套装",
+            "icon": "",
+            "type": 6,
+            "key": "420"
+        },
+        {
+            "id": "476",
+            "name": "棉服",
+            "icon": "",
+            "type": 6,
+            "key": "476"
+        },
+        {
+            "id": "477",
+            "name": "风衣大衣",
+            "icon": "",
+            "type": 6,
+            "key": "477"
+        },
+        {
+            "id": "478",
+            "name": "时尚裤装",
+            "icon": "",
+            "type": 6,
+            "key": "478"
+        },
+        {
+            "id": "479",
+            "name": "时髦外套",
+            "icon": "",
+            "type": 6,
+            "key": "479"
+        },
+        {
+            "id": "480",
+            "name": "针织毛衫",
+            "icon": "",
+            "type": 6,
+            "key": "480"
+        },
+        {
+            "id": "481",
+            "name": "家居内衣",
+            "icon": "",
+            "type": 6,
+            "key": "481"
+        },
+        {
+            "id": "482",
+            "name": "配饰",
+            "icon": "",
+            "type": 50,
+            "key": "{\"cdt\":{\"is_show_presale\":\"0\",\"source_type\":[\"0\",\"1\"],\"fcate\":\"482\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\",\"fav\":\"desc\",\"sort\":\"desc\"}}"
+        },
+        {
+            "id": "1243",
+            "name": "时尚套装",
+            "icon": "",
+            "type": 50,
+            "key": "{\"cdt\":{\"is_show_presale\":\"0\",\"source_type\":[\"0\",\"1\"],\"fcate\":\"1243\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\",\"fav\":\"desc\",\"sort\":\"desc\"}}"
+        },
+        {
+            "id": "1245",
+            "name": "春季裤装",
+            "icon": "",
+            "type": 50,
+            "key": "{\"cdt\":{\"is_show_presale\":\"0\",\"source_type\":[\"0\",\"1\"],\"fcate\":\"1245\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\",\"fav\":\"desc\",\"sort\":\"desc\"}}"
+        },
+        {
+            "id": "1246",
+            "name": "春季裙装",
+            "icon": "",
+            "type": 50,
+            "key": "{\"cdt\":{\"is_show_presale\":\"0\",\"source_type\":[\"0\",\"1\"],\"fcate\":\"1246\",\"sale_type\":2},\"order\":{\"show_stime\":\"desc\",\"sales\":\"desc\",\"fav\":\"desc\",\"sort\":\"desc\"}}"
+        }
+    ]
+}
