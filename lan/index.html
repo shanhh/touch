@@ -1,0 +1,1035 @@
+<!doctype html>
+<html lang="zh-CN">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="yes" name="apple-touch-fullscreen">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <meta content="telephone=no" name="format-detection">
+        <meta name="keywords" content="享乐计划,懒投资" />
+        <meta name="description" content="懒投资享乐计划,是专为懒人投资理财享受生活的乐趣而精心准备的,懒人投资理财就上懒投资网."
+        />
+        <title>
+            懒投资享乐计划_投资理财享受生活的乐趣-懒投资
+        </title>
+        <link rel="dns-prefetch" href="//s1.lantouzi.com">
+        <script>
+            (function() {
+                window.CONFIG = {
+                    "ENCRYPT_TIMEOUT": 120000,
+                    "SERVER_TIME": 1497579586000
+                };
+                window.CONFIG.BASE_URI = 'https://lantouzi.com';
+                window.CONFIG.SSO_URI = CONFIG.BASE_URI + '/dwjsso';
+                window.CONFIG.LTZ_API = CONFIG.BASE_URI + '/api/';
+                window.CONFIG.ISAPP = /ltz-app-android|ltz-app-iphone/i.test(window.navigator.userAgent);
+                window.CONFIG.ISIOSAPP = /ltz-app-iphone/i.test(window.navigator.userAgent);
+                window.CONFIG.ISANDROIDAPP = /ltz-app-android/i.test(window.navigator.userAgent);
+                window.CONFIG.APP_VERSION = window.CONFIG.ISAPP ? null: 0;
+                window.CONFIG.ISWX = /micromessenger/i.test(window.navigator.userAgent);
+            })();
+            var _hmt = _hmt || []; (function() { // 防止被iframe
+                try {
+                    top.location.hostname;
+                    if (top.location.hostname !== window.location.hostname) {
+                        top.location.href = 'https://lantouzi.com';
+                    }
+                } catch(e) {　　top.location.href = 'https://lantouzi.com';
+                }
+            })();
+        </script>
+        <link rel="stylesheet" type="text/css" href="https://lantouzi.com/static/mobile/css/common/base.css?_v=ff8674af96121ff01afc86d18c55e3f0">
+        <link rel="stylesheet" type="text/css" href="https://lantouzi.com/static/mobile/css/common/header.css?_v=b13e6af33a270366c56688d68f556be4">
+        <link rel="stylesheet" type="text/css" href="https://lantouzi.com/static/mobile/css/common/slider.css?_v=c142eb84691e9ade50516e3e395af87b">
+        <link rel="stylesheet" type="text/css" href="https://lantouzi.com/static/mobile/css/enjoy/index.css?_v=ceb657091782f2cce5bb1b38efc2a046">
+        <script src="/static/mobile/js/lib/vue-1.0.13.min.js">
+        </script>
+        <script src="https://lantouzi.com/static/mobile/js/module/vue.util.js?_v=0b00fcd5ec97208360abfbe600c6cb73">
+        </script>
+        <script src="https://lantouzi.com/static/mobile/js/module/util.js?_v=1ec371d17b8091271ce5c4f0d44c3a07">
+        </script>
+    </head>
+    
+    <body>
+        <header class="g-header clearfix" id="g-header">
+            <a href="https://lantouzi.com/" class="g-header-logo" title="懒投资">
+                <img src="https://s1.lantouzi.com/img/201612/53ef617a4124fb2da54ab79c27945889.png"
+                alt="懒投资" />
+                <h1 class="l-hide">
+                    懒投资
+                </h1>
+            </a>
+            <input type="checkbox" id="g-menustate" class="g-menustate">
+            <div id="g-nav">
+                <nav class="g-nav-list">
+                    <a class="g-nav-list-item " href="https://lantouzi.com/">
+                        首页
+                    </a>
+                    <a class="g-nav-list-item " href="https://lantouzi.com/lingqianjihua">
+                        零钱计划
+                    </a>
+                    <a class="g-nav-list-item " href="https://lantouzi.com/project">
+                        懒人计划
+                    </a>
+                    <a class="g-nav-list-item cur" href="https://lantouzi.com/enjoy">
+                        享乐计划
+                    </a>
+                    <a class="g-nav-list-item " href="https://lantouzi.com/douniujihua">
+                        斗牛计划
+                        <!-- <i class="beta">全新</i> -->
+                    </a>
+                    <a class="g-nav-list-item " href="https://lantouzi.com/stars">
+                        群星计划
+                    </a>
+                    <a class="g-nav-list-item " href="https://lantouzi.com/bianxianjihua">
+                        变现计划
+                    </a>
+                    <a class="g-nav-list-item " href="https://lantouzi.com/user" rel="nofollow">
+                        我的账户
+                    </a>
+                    <a class="g-nav-list-item" href="https://lanlicai.com">
+                        企业理财
+                    </a>
+                </nav>
+                <label class="g-menuicon-label" for="g-menustate">
+                    <a class="g-header-menu-link">
+                        <i class="iconfont">
+                            &#xe656;
+                        </i>
+                    </a>
+                </label>
+                <nav class="g-header-user">
+                    <a href="https://lantouzi.com/user" rel="nofollow" class="g-header-user-link">
+                        <i class="iconfont">
+                            &#xe657;
+                        </i>
+                    </a>
+                </nav>
+            </div>
+        </header>
+        <script>
+            (function() {
+                var menustate = document.getElementById('g-menustate'),
+                listWrap = document.querySelector('.g-nav-list'),
+                list = document.getElementsByClassName('g-nav-list-item'),
+                time = 40,
+                timer;
+                menustate.addEventListener("click",
+                function(e) {
+                    if (menustate.checked) {
+                        document.documentElement.classList.add('g-noscroll');
+                        listWrap.style.display = 'block';
+                        getComputedStyle(listWrap)['background-color'];
+                        listWrap.classList.add('on');
+                        var i = 0;
+                        setTimeout(function aaa() {
+                            list[i].classList.add('on');
+                            if (++i >= list.length) return;
+                            setTimeout(aaa, time);
+                        },
+                        time);
+                    } else {
+                        document.documentElement.classList.remove('g-noscroll');
+                        var i = list.length - 1;
+                        setTimeout(function aaa() {
+                            list[i].classList.remove('on');
+                            if (--i < 0) {
+                                setTimeout(function() {
+                                    listWrap.classList.remove('on');
+                                    setTimeout(function() {
+                                        listWrap.style.display = 'none';
+                                    },
+                                    350);
+                                },
+                                time);
+                                return;
+                            };
+                            setTimeout(aaa, time);
+                        },
+                        time);
+                    }
+                });
+            })();
+        </script>
+        <div class="l-container img enjoy-index g-vue-container" id="enjoy-index"
+        v-show="loaded" transition="g-show">
+            <section class="slider-container zw-d">
+                <enjoy-slider :banner="index.banner">
+                </enjoy-slider>
+            </section>
+            <section class="recommend-container" v-if="recommend_goods && recommend_goods.length > 0"
+            :style="{backgroundImage: 'url('+recommend_goods[0].area_img+')'}">
+                <div class="recommend-wrap-radius">
+                    <div class="recommend-shop-img recommend-animate" v-el:rimg>
+                        <img :src="recommend_goods[recommendIndex].goods_img" />
+                    </div>
+                    <div class="recommend-shop-des" @click="jumpToRecommend">
+                        <div class="recommend-animate" v-el:rdesc>
+                            <h3 class="recommend-ellipsis">
+                                {{recommend_goods[recommendIndex].title}}
+                            </h3>
+                            <p class="recommend-ellipsis">
+                                {{recommend_goods[recommendIndex].detail}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="nav-container">
+                <enjoy-nav :navs="nav" :setting="navSetting">
+                </enjoy-nav>
+            </section>
+            <a href="javascript:;" class="banner-enjoy-fresh" @click="popEnjoyFresh"
+            v-if="tanchuang_info.have_entrance">
+                <img src="https://s1.lantouzi.com/img/20173/f52e32dfb0d31f456254b12abb57f37e.jpg">
+            </a>
+            <section class="miaosha-container" v-if="!tanchuang_info.have_entrance && showbaiyi">
+                <baiyi-miaosha :miaosha="baiyi">
+                </baiyi-miaosha>
+            </section>
+            <section class="miaosha-container" v-if="!tanchuang_info.have_entrance && index.miaosha.items && index.miaosha.items.length>0 ">
+                <enjoy-miaosha :item="index.miaosha">
+                </enjoy-miaosha>
+            </section>
+            <section class="goods-section-container">
+                <template v-for="section in index.sections">
+                    <enjoy-section :section="section" :index="$index">
+                    </enjoy-section>
+                </template>
+            </section>
+            <div class="goods-loading" v-show="pageView.show_more" transition="g-show">
+                <div class="sk-three-bounce">
+                    <div class="sk-child sk-bounce1">
+                    </div>
+                    <div class="sk-child sk-bounce2">
+                    </div>
+                    <div class="sk-child sk-bounce3">
+                    </div>
+                </div>
+                <span class="info">
+                    正在加载
+                </span>
+            </div>
+            <div class="goods-end g-vue-container" v-show="!pageView.show_more" transition="g-show">
+                <span class="pic bottom">
+                </span>
+                <span class="info">
+                    已经到底啦
+                </span>
+            </div>
+            <enjoy-fresh-alert :goods="tanchuang_info.goods">
+            </enjoy-fresh-alert>
+        </div>
+        <script src="/static/mobile/js/lib/swiper-3.3.1.min.js">
+        </script>
+        <script src="https://lantouzi.com/static/mobile/js/module/vue.enjoy.fresh.alert.js?_v=65ed1b848f5b187f9c348da26bc9c044">
+        </script>
+        <script src="https://lantouzi.com/static/mobile/js/widgets/countdown.js?_v=87624d8efc8a5a4706b6f6ca2dcf589d">
+        </script>
+        <script src="https://lantouzi.com/static/mobile/js/module/vue.enjoy.slider.js?_v=67232dcd3725cf550e53d3f694529929">
+        </script>
+        <script src="https://lantouzi.com/static/mobile/js/module/vue.enjoy.nav.js?_v=08cea1fffb93a808c06ef4c8d61dcd79">
+        </script>
+        <script src="https://lantouzi.com/static/mobile/js/module/vue.enjoy.goods.section.js?_v=80e41a6eca61617951553ab0660693d4">
+        </script>
+        <script>
+            window.wechatCustom = {
+                title: '来享乐计划，免费拿走好东西',
+                desc: '超值商品即刻拥有，一起来抢～',
+                link: window.CONFIG.BASE_URI + '/enjoy',
+                imgUrl: 'https://s1.lantouzi.com/img/201511/enjoy/11/enjoywx.jpg'
+            };
+        </script>
+        <script>
+            var is_login = false;
+            var wap_index_data = {
+                "banner": [{
+                    "image": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/shouyeguanggaotu\/inkcase_banner.jpg",
+                    "link": "https:\/\/lantouzi.com\/enjoy\/view?id=ltzf8c129e54b84320b"
+                },
+                {
+                    "image": "https:\/\/s1.lantouzi.com\/img\/20176\/xiangbianchengrendemao\/App-banner.jpg",
+                    "link": "https:\/\/lantouzi.com\/enjoy\/view?id=ltz7fcd56c1a3f83033"
+                },
+                {
+                    "image": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/shouyeguanggaotu\/refa.jpg",
+                    "link": "https:\/\/lantouzi.com\/enjoy\/view?id=ltz66ddbb9104b65262"
+                },
+                {
+                    "image": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/shouyeguanggaotu\/jellycat-banner.jpg",
+                    "link": "https:\/\/lantouzi.com\/enjoy\/category?id=19&pcode=um67&from=singlemessage&isappinstalled=1"
+                },
+                {
+                    "image": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/shouyeguanggaotu\/duxiaoku-3suiyixia.jpg",
+                    "link": "https:\/\/lantouzi.com\/enjoy\/view?id=ltzb99102603e4fd0f1"
+                },
+                {
+                    "image": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/shouyeguanggaotu\/nespresso_bannernew1.jpg",
+                    "link": "https:\/\/lantouzi.com\/enjoy\/view?id=ltzcedd1272e7c460d1"
+                },
+                {
+                    "image": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/shouyeguanggaotu\/banner_father.jpg",
+                    "link": "https:\/\/lantouzi.com\/enjoy\/category?id=22&pcode=igxo&from=singlemessage&isappinstalled=1"
+                },
+                {
+                    "image": "https:\/\/s1.lantouzi.com\/img\/xianglejihua\/bob-shigeji\/app-banner.jpg",
+                    "link": "https:\/\/lantouzi.com\/enjoy\/view?id=ltza0b0f5a7b3b8bbc4"
+                },
+                {
+                    "image": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/shouyeguanggaotu\/jiaoxia-banner.jpg",
+                    "link": "https:\/\/lantouzi.com\/enjoy\/view?id=ltzc57d42caca059746"
+                },
+                {
+                    "image": "https:\/\/s1.lantouzi.com\/img\/xianglejihua\/xiunvyefengkuang\/APPbanner.jpg",
+                    "link": "https:\/\/lantouzi.com\/enjoy\/view?id=ltze9aca9de7a455739"
+                }],
+                "sections": [{
+                    "id": "10",
+                    "wap_name": "\u63a8\u8350",
+                    "wap_ad_img": "https:\/\/s1.lantouzi.com\/img\/201605\/xiaolan_wap.jpg",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/xiaolantuijian\/xiaolantuijian.png",
+                    "category_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/xiaolantuijian\/xiaolantuijian1.png",
+                    "event_img": "",
+                    "event_url": "",
+                    "index_prjs": "13938,13838,13932,13931",
+                    "index_goods": "5276,5456,5504",
+                    "style": "",
+                    "goods": [{
+                        "id": "5276",
+                        "title": "Dyson\u6234\u68eeV6 Fluffy\u65e0\u7ebf\u624b\u6301\u5438\u5c18\u5668",
+                        "sub_title": "\u7231\u4e0a\u6253\u626b\u4eceDyson\u5438\u5c18\u5668\u5f00\u59cb\uff0c\u76f4\u964d6000\u5143",
+                        "detail_icon": "https:\/\/s1.lantouzi.com\/img\/xianglejihua\/dyson_v6\/1xin.jpg",
+                        "goods_term_price": {
+                            "3": "5500000",
+                            "1": "13100000",
+                            "0": "26200000"
+                        },
+                        "encrypt_id": "ltz657db57e4fd96a0f",
+                        "enjoy_price": "5500000"
+                    },
+                    {
+                        "id": "5456",
+                        "title": "\u201c\u91d1\u624b\u6307\u201d\u5434\u7267\u91ce\u94a2\u7434\u72ec\u594f\u97f3\u4e50\u4f1a\u300a\u6d41\u6dcc\u7684\u6708\u5149\u300b",
+                        "sub_title": "\u4e00\u573a\u6781\u5177\u89c6\u542c\u5ba1\u7f8e\u548c\u7ecf\u5178\u6d6a\u6f2b\u7684\u94a2\u7434\u97f3\u4e50\u4f1a",
+                        "detail_icon": "https:\/\/s1.lantouzi.com\/img\/201706\/liutangdeyueguang\/1.jpeg",
+                        "goods_term_price": {
+                            "3": "150000",
+                            "1": "360000",
+                            "0": "720000"
+                        },
+                        "encrypt_id": "ltz29affa79cd6d5155",
+                        "enjoy_price": "150000"
+                    },
+                    {
+                        "id": "5504",
+                        "title": "\u5bb6\u5ead\u97f3\u4e50\u5267\u300a\u60f3\u53d8\u6210\u4eba\u7684\u732b\u300b",
+                        "sub_title": "\u53bb\u5bfb\u56de\u4e00\u4e9b\u5728\u5149\u5f71\u6591\u9a73\u7684\u6210\u957f\u8def\u4e0a\u201c\u5fd8\u5374\u4e86\u7684\u66fe\u7ecf\u201d\u3002",
+                        "detail_icon": "https:\/\/s1.lantouzi.com\/img\/20176\/xiangbianchengrendemao\/1.jpg",
+                        "goods_term_price": {
+                            "3": "90000",
+                            "1": "220000",
+                            "0": "440000"
+                        },
+                        "encrypt_id": "ltz7fcd56c1a3f83033",
+                        "enjoy_price": "90000"
+                    }]
+                },
+                {
+                    "id": "22",
+                    "wap_name": "\u7236\u4eb2\u8282",
+                    "wap_ad_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/zhuanqu_father.jpg",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/yishiqingxin\/yishiqingxin.png",
+                    "category_img": "",
+                    "event_img": "",
+                    "event_url": "",
+                    "index_prjs": "",
+                    "index_goods": "5472,4819,5469",
+                    "style": "",
+                    "goods": [{
+                        "id": "5472",
+                        "title": "BALLY \u5df4\u5229 \u7537\u58eb\u94b1\u5305+\u76ae\u5e26\u793c\u76d2",
+                        "sub_title": "\u7cbe\u6e5b\u5de5\u827a\u6253\u9020\u5962\u534e\u8d28\u611f",
+                        "detail_icon": "https:\/\/s1.lantouzi.com\/img\/xianglejihua\/bally_yaodai\/1.jpg",
+                        "goods_term_price": {
+                            "3": "4800000",
+                            "1": "11400000",
+                            "0": "22800000"
+                        },
+                        "encrypt_id": "ltzb268baabe982bfde",
+                        "enjoy_price": "4800000"
+                    },
+                    {
+                        "id": "4819",
+                        "title": "LAB Series \u63a7\u6cb9\u4e09\u90e8\u66f2\u7ecf\u5178\u5957\u88c5",
+                        "sub_title": "\u96c5\u8bd7\u5170\u9edb\u65d7\u4e0b\u9ad8\u7aef\u7537\u58eb\u54c1\u724c",
+                        "detail_icon": "https:\/\/s1.lantouzi.com\/img\/xianglejihua\/LABSerieskongyousanbuqu\/1.jpg",
+                        "goods_term_price": {
+                            "3": "1470000",
+                            "1": "3490000",
+                            "0": "6980000"
+                        },
+                        "encrypt_id": "ltza86920e9002801f1",
+                        "enjoy_price": "1470000"
+                    },
+                    {
+                        "id": "5469",
+                        "title": "\u98de\u5229\u6d66\u590d\u53e4\u683c\u8c03\u7248\u5243\u987b\u5200 S88860",
+                        "sub_title": "\u80e1\u6b4c\u540c\u6b3e",
+                        "detail_icon": "https:\/\/s1.lantouzi.com\/img\/xianglejihua\/feilipu_s8860_new\/1.jpg",
+                        "goods_term_price": {
+                            "3": "4880000",
+                            "1": "11600000",
+                            "0": "23200000"
+                        },
+                        "encrypt_id": "ltzb22f68ba33403299",
+                        "enjoy_price": "4880000"
+                    }]
+                },
+                {
+                    "id": "2",
+                    "wap_name": "\u7ae5\u5fc3",
+                    "wap_ad_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/legaozhuanqu\/lego.jpg",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/ertongjie\/icon-ertongjie.png",
+                    "category_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/ertongjie\/gif\/8.png",
+                    "event_img": "",
+                    "event_url": "",
+                    "index_prjs": "13764,13759, 13784",
+                    "index_goods": "5222,5439,4182",
+                    "style": "",
+                    "goods": [{
+                        "id": "5222",
+                        "title": "LEGO 1\u6708\u65b0\u54c1\u4e50\u9ad8\u661f\u7403\u5927\u6218\u7cfb\u521775159 Star Wars\u6b7b\u661f",
+                        "sub_title": "\u91cd\u73b0\u7ecf\u5178\u573a\u666f\uff0c\u7c89\u4e1d\u73cd\u85cf\u6b3e",
+                        "detail_icon": "https:\/\/s1.lantouzi.com\/img\/xianglejihua\/LEGO-75159\/1.jpg",
+                        "goods_term_price": {
+                            "3": "6890000",
+                            "1": "15900000",
+                            "0": "31800000"
+                        },
+                        "encrypt_id": "ltz45364af2c3bd58e9",
+                        "enjoy_price": "6890000"
+                    },
+                    {
+                        "id": "5439",
+                        "title": "\u5f02\u5f62\u5168\u4e66\uff1a\u7ecf\u5178\u56db\u90e8\u66f2\u7ec8\u6781\u6863\u6848",
+                        "sub_title": "\u5f71\u53f2\u4f20\u5947\uff0c\u539f\u7248\u5f15\u8fdb",
+                        "detail_icon": "https:\/\/s1.lantouzi.com\/img\/xianglejihua\/yixingquanshu\/1.jpg",
+                        "goods_term_price": {
+                            "3": "350000",
+                            "1": "830000",
+                            "0": "1660000"
+                        },
+                        "encrypt_id": "ltz428464996fef6feb",
+                        "enjoy_price": "350000"
+                    },
+                    {
+                        "id": "4182",
+                        "title": "Nintendo \u4efb\u5929\u5802\u638c\u4e0a\u6e38\u620f\u673a New 3DS\uff08\u65e5\u7248\uff09 ",
+                        "sub_title": "\u4e00\u8d77\u91cd\u56de\u7ae5\u5e74",
+                        "detail_icon": "https:\/\/s1.lantouzi.com\/img\/xianglejihua\/Nintendo3DS_white\/1.jpg",
+                        "goods_term_price": {
+                            "3": "2280000",
+                            "1": "5460000",
+                            "0": "10800000"
+                        },
+                        "encrypt_id": "ltz93fdbae66045fabe",
+                        "enjoy_price": "2280000"
+                    }]
+                }],
+                "wap_nav_imgs": [{
+                    "id": "10",
+                    "wap_name": "\u63a8\u8350",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/xiaolantuijian\/xiaolantuijian.png"
+                },
+                {
+                    "id": "22",
+                    "wap_name": "\u7236\u4eb2\u8282",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/yishiqingxin\/yishiqingxin.png"
+                },
+                {
+                    "id": "2",
+                    "wap_name": "\u7ae5\u5fc3",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/ertongjie\/icon-ertongjie.png"
+                },
+                {
+                    "id": "9",
+                    "wap_name": "\u590f\u65e5",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/fangshaizhuanqu\/icon-fangshai.png\t"
+                },
+                {
+                    "id": "13",
+                    "wap_name": "\u751f\u6d3b",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/iconchufang.png"
+                },
+                {
+                    "id": "15",
+                    "wap_name": "\u62a4\u80a4",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/meirongyizhuanqu\/meirongyi.png"
+                },
+                {
+                    "id": "3",
+                    "wap_name": "\u76ca\u667a",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/legaozhuanqu\/icon.png"
+                },
+                {
+                    "id": "6",
+                    "wap_name": "\u79d1\u6280",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/haoqoxingren\/haoqixingren.png"
+                },
+                {
+                    "id": "8",
+                    "wap_name": "\u5973\u6027",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/nvxinggehu\/nvxinggehu.png"
+                },
+                {
+                    "id": "5",
+                    "wap_name": "\u6742\u8d27",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/zahuozhuanqu\/icon-.png"
+                },
+                {
+                    "id": "16",
+                    "wap_name": "\u793c\u7269",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/liwuzhuanqu\/icon-liwu.png"
+                },
+                {
+                    "id": "24",
+                    "wap_name": "\u8bfb\u4e66",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/dushuzhuanqu\/icon-dushu2.png"
+                },
+                {
+                    "id": "26",
+                    "wap_name": "\u60a6\u8bfb",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/icontongshu.png"
+                },
+                {
+                    "id": "19",
+                    "wap_name": "\u80b2\u513f",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/yuerzhuanqu\/yuer_icon.jpg"
+                },
+                {
+                    "id": "11",
+                    "wap_name": "APPLE",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/pingguozhuanqu\/apple.png"
+                },
+                {
+                    "id": "18",
+                    "wap_name": "\u6297\u973e",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/wumaizhuanqu\/wumai-icon.png"
+                },
+                {
+                    "id": "29",
+                    "wap_name": "\u5b9a\u5236",
+                    "wap_nav_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/leimupeizhi\/2zhounnian\/xiaolantegong.png"
+                }],
+                "total": 17
+            }; // 仅包含第一页的数据
+            var baiyi = {
+                "title": "\uff03\u9632\u6652\u56e4\u8d27\u5b63\uff03\u9650\u91cf\u79d2\u6740 ",
+                "sub_title": "",
+                "ad_img": "",
+                "display_time": "2017-04-11 12:00:00",
+                "yugao_name": ""
+            };
+            var is_fresher = 1;
+            var miaosha = {
+                "items": []
+            };
+            var recommend_goods = [{
+                "area_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/father.gif",
+                "goods_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/6.png",
+                "title": "HUGO BOSS\u94b1\u5305\u793c\u76d2",
+                "detail": "\u54c1\u8d28\u4e4b\u9009\uff0c\u4f4e\u8c03\u7ecf\u5178",
+                "roll_time": "3",
+                "url": "https:\/\/lantouzi.com\/enjoy\/view?id=ltzaeda7319c5723512"
+            },
+            {
+                "area_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/father.gif",
+                "goods_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/15.pic.jpg",
+                "title": "Sony A6000 \u5fae\u5355\u76f8\u673a",
+                "detail": "\u5fae\u5355\u754c\u6027\u4ef7\u6bd4\u4e4b\u738b",
+                "roll_time": "3",
+                "url": "https:\/\/lantouzi.com\/enjoy\/view?id=ltzaec7b791f784c57d"
+            },
+            {
+                "area_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/father.gif",
+                "goods_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/7.png",
+                "title": "MK \u7537\u58eb\u8170\u5e26\u793c\u76d2",
+                "detail": "\u7537\u795e\u8001\u7238\u6807\u914d",
+                "roll_time": "3",
+                "url": "https:\/\/lantouzi.com\/enjoy\/view?id=ltzdb7d1eb9f4fb217e"
+            },
+            {
+                "area_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/father.gif",
+                "goods_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/2.png",
+                "title": "\u6d3e\u514b\u94a2\u7b14\uff0b\u58a8\u6c34\u793c\u76d2",
+                "detail": "\u7b14\u5c16\u4e0b\u7684\u8d28\u611f",
+                "roll_time": "3",
+                "url": "https:\/\/lantouzi.com\/enjoy\/view?id=ltzebf7e9e58fcc2013"
+            },
+            {
+                "area_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/father.gif",
+                "goods_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/5.png",
+                "title": "BALLY \u94b1\u5305+\u76ae\u5e26\u793c\u76d2",
+                "detail": "\u7cbe\u6e5b\u5de5\u827a\u6253\u9020\u5962\u534e\u8d28\u611f",
+                "roll_time": "3",
+                "url": "https:\/\/lantouzi.com\/enjoy\/view?id=ltzb268baabe982bfde"
+            },
+            {
+                "area_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/father.gif",
+                "goods_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/3.png",
+                "title": "\u98de\u5229\u6d66\u590d\u53e4\u683c\u8c03\u5243\u987b\u5200",
+                "detail": "\u80e1\u6b4c\u540c\u6b3e\uff0c\u683c\u8c03\u4e4b\u9009",
+                "roll_time": "3",
+                "url": "https:\/\/lantouzi.com\/enjoy\/view?id=ltzb22f68ba33403299"
+            },
+            {
+                "area_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/father.gif",
+                "goods_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/1.png",
+                "title": "NESPRESSO \u5496\u5561\u673a",
+                "detail": "\u5728\u5bb6\u4e5f\u80fd\u559d\u4e0a\u597d\u5496\u5561",
+                "roll_time": "3",
+                "url": "https:\/\/lantouzi.com\/enjoy\/view?id=ltzcedd1272e7c460d1"
+            },
+            {
+                "area_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/father.gif",
+                "goods_img": "https:\/\/s1.lantouzi.com\/img\/xianglev4\/huodongpeizhi\/fuqinjie\/gif\/4.png",
+                "title": "\u98de\u5229\u6d66\u7537\u58eb\u773c\u90e8\u80fd\u91cf\u4eea",
+                "detail": "\u7ed9\u8001\u7238\u7684\u53cc\u773c\u505a\u4e2aSPA",
+                "roll_time": "3",
+                "url": "https:\/\/lantouzi.com\/enjoy\/view?id=ltzf04a4925a6724e51"
+            }];
+            var tanchuang_info = {
+                "have_entrance": false,
+                "auto_tanchuang": false,
+                "goods": []
+            }; //新手影音会员弹窗
+            
+        </script>
+        <script>
+            document.addEventListener('DOMContentLoaded',
+            function() {
+
+                var vm = new Vue({
+                    name: 'enjoy',
+                    el: '#enjoy-index',
+                    data: {
+                        loaded: false,
+                        navLinkBase: window.CONFIG.BASE_URI + '/enjoy/category?id=',
+                        navSetting: {
+                            slidesPerView: 4.6,
+                            spaceBetween: 5,
+                            defaultNavImage: 'https://s1.lantouzi.com/img/201603/enjoy/wapindex/test/nacicon.png'
+                        },
+                        index: {
+                            banner: wap_index_data.banner,
+                            miaosha: miaosha,
+                            navs: wap_index_data.wap_nav_imgs,
+                            sections: wap_index_data.sections,
+                            total: wap_index_data.total
+                        },
+                        is_login: is_login,
+                        tanchuang_info: tanchuang_info,
+                        baiyi: baiyi,
+                        is_fresher: is_fresher,
+                        pageView: {
+                            total_loaded: 3,
+                            show_more: true,
+                            page_size: 3,
+                            page: 2
+                        },
+                        pageViewLoading: false,
+                        recommend_goods: recommend_goods,
+                        recommendIndex: 0
+                    },
+                    computed: {
+                        showbaiyi: function() {
+                            return ! Util.isEmptyObject(this.$data.baiyi);
+                        },
+                        nav: function() {
+                            var r = [];
+                            var self = this;
+                            this.$data.index.navs.forEach(function(item) {
+                                r.push({
+                                    link: self.$data.navLinkBase + item.id,
+                                    img: item.wap_nav_img,
+                                    name: item.wap_name
+                                });
+                            });
+                            return r;
+                        },
+                        showEnjoyFresh: function() {
+                            return true;
+                        }
+                    },
+                    methods: {
+                        bindScroll: function() {
+                            var vm = this;
+                            document.addEventListener('scroll',
+                            function(e) {
+                                vm.check();
+                            },
+                            false);
+                        },
+                        check: function() {
+                            var vm = this;
+                            var bottomOffset = 200;
+                            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - bottomOffset) {
+                                if (vm.$data.pageView.show_more && !vm.$data.pageViewLoading) {
+                                    vm.$data.pageViewLoading = true;
+                                    vm.loadingMore();
+                                }
+                            }
+                        },
+                        loadingMore: function() {
+                            var vm = this;
+                            vueUtil.loadingMore(vm,
+                            function() {
+                                vm.getIndexData(vm.$data.pageView.page);
+                            });
+                        },
+                        getIndexData: function(page) {
+                            var vm = this;
+                            var ENJOY_INDEX_API = window.CONFIG.LTZ_API + 'enjoy/wap_index_data';
+                            vueUtil.get(ENJOY_INDEX_API, {
+                                is_fresher: this.$data.is_fresher,
+                                page: page || 2
+                            },
+                            function(fetchData) {
+                                vm.$data.pageViewLoading = false;
+                                vueUtil.pageView(vm, 'normal', fetchData,
+                                function() {
+                                    vm.$data.index.sections = vm.$data.index.sections.concat(fetchData.sections);
+                                },
+                                'sections');
+                            });
+                        },
+                        jumpToRecommend: function() {
+                            if (!vm.recommend_goods[vm.recommendIndex].url) return;
+                            window.location.href = vm.recommend_goods[vm.recommendIndex].url;
+                        },
+                        popEnjoyFresh: function() {
+                            window.track_event && window.track_event('WAP-享乐-首页', 'WAP-点击影音会员入口', 'WAP-广告位-享乐首页入口');
+                            if (!this.$data.is_login) {
+                                window.location.href = '/login';
+                                return;
+                            }
+                            this.$broadcast('show-enjoy-fresh-alert');
+                        }
+                    },
+                    ready: function() {
+                        this.$data.loaded = true;
+                        this.bindScroll();
+                        this.$nextTick(function() {
+                            this.$broadcast('data-ready', {
+                                type: 1,
+                                status: 1
+                            });
+                        });
+                        if (this.recommend_goods && this.recommend_goods.length > 0) {
+                            setTimeout(toggle_goods, this.recommend_goods[this.recommendIndex].roll_time * 1000);
+                        }
+
+                        if (this.$data.tanchuang_info.auto_tanchuang) {
+                            this.popEnjoyFresh();
+                        }
+
+                    }
+                });
+
+                function toggle_goods() {
+                    if (vm.recommend_goods.length < 2) return;
+                    var img = vm.$els.rimg,
+                    desc = vm.$els.rdesc;
+
+                    Util.addClass(img, 'active');
+                    Util.addClass(desc, 'active');
+                    setTimeout(function() {
+                        Util.removeClass(img, 'active');
+                        Util.removeClass(desc, 'active');
+                        if (vm.recommendIndex + 1 >= vm.recommend_goods.length) {
+                            vm.recommendIndex = 0;
+                        } else {
+                            vm.recommendIndex = vm.recommendIndex + 1;
+                        }
+                        setTimeout(toggle_goods, vm.recommend_goods[vm.recommendIndex].roll_time * 1000);
+                    },
+                    320);
+                };
+            });
+        </script>
+        <script>
+            (function() {
+                var URL = window.location.href;
+                var PATH = encodeURIComponent(URL.replace(/(.)*lantouzi\.com/i, ''));
+                var SCHEMA = 'lantouzi://lantouzi.com/oia?path=';
+                var isWx = window.CONFIG.ISWX;
+                var isAndroid = !!window.navigator.userAgent.match(/android/ig);
+                var isIOS = !!window.navigator.userAgent.match(/iphone|ipod|ipad/ig);
+                var isUniversal = isIOS && Util.getiOSVersion() >= 9;
+                var showButton = Util.queryUrl(URL, 'oia');
+                var handleFailed = function(success) {
+                    if (!success) {
+                        window.location.href = '/oia?auto=1&path=' + PATH;
+                    }
+                };
+                var checkOpen = function(cb) {
+                    var stime = new Date().getTime();
+                    function check(etime) { (etime > 3000 || document.hidden || document.webkitHidden) ? cb(true) : cb(false)
+                    }
+                    //启动间隔20ms运行的定时器，并检测累计消耗时间是否超过3000ms，超过则结束
+                    var count = 0,
+                    id;
+                    id = setInterval(function() {
+                        count++;
+                        var etime = +(new Date()) - stime;
+                        if (count >= 100 || etime > 3000) {
+                            clearInterval(id) check(etime)
+                        }
+                    },
+                    20);
+                };
+                var openInIframe = function(url, callback) {
+                    var ifr = document.createElement('iframe');
+                    ifr.style.display = 'none';
+                    ifr.src = url;
+                    if (callback) {
+                        callback && callback();
+                    }
+                    document.body.appendChild(ifr);
+                    setTimeout(function() {
+                        document.body.removeChild(ifr);
+                    },
+                    2000);
+                };
+                var openApp = function(e) {
+                    var targetElem = e.target;
+                    if (targetElem.classList.contains('open-in-app')) {
+                        if (isUniversal) { // 无论是否在微信还是浏览器，只要是iOS 9的用户都尝试使用 Universal Links
+                            window.location.href = 'https://ios.lantouzi.com/oia?path=' + PATH;
+                        } else if (isWx) { // 如果是在微信中，非iOS9用户和安卓用户，都需要前往引导页面
+                            window.location.href = '/oia?auto=1&path=' + PATH;
+                        } else if (isIOS) { // 在浏览器中，iOS使用 URL schema
+                            openInIframe(SCHEMA + PATH, checkOpen(handleFailed))
+                        } else { // 在浏览器中，Android使用URL schema方式
+                            window.location.href = SCHEMA + PATH;
+                            checkOpen(handleFailed);
+                        }
+                    }
+                };
+                if (showButton !== undefined && +showButton >= 1) {
+                    document.body.addEventListener('click', openApp, false);
+                    var html = '<button id="oia" class="open-in-app l-h-center">懒投资App内打开</button>'Util.appendHtml(document.body, html);
+                }
+            })();
+        </script>
+        <script>
+            var _hmt = _hmt || []; (function() {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?6dea39ac37df9c6f3e7b096755b73949";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+
+                window.bd_track_event = function(category, action, label, value) {
+                    value = value || 0;
+                    if (category && action && label) {
+                        _hmt.push(['_trackEvent', category, action, label, value]);
+                    }
+                };
+            })();
+        </script>
+        <script>
+            false && setTimeout(function() { (function(i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] ||
+                    function() { (i[r].q = i[r].q || []).push(arguments)
+                    },
+                    i[r].l = 1 * new Date();
+                    a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+                ga('create', 'UA-60788439-1', 'auto', {
+                    'allowLinker': true
+                });
+                ga('require', 'linker');
+                ga('linker:autoLink', ['lanlicai.com']);
+                ga('send', 'pageview');
+            },
+            1000);
+        </script>
+        <script>
+            document.addEventListener('DOMContentLoaded',
+            function() {
+                var uid = 0;
+                var tid = 0;
+                var appid = 1;
+                var ua = 2;
+                if (window.CONFIG.ISWX) {
+                    ua = 5;
+                } else if (window.CONFIG.ISIOSAPP) {
+                    ua = 4;
+                } else if (window.CONFIG.ISAPP && !window.CONFIG.ISIOSAPP) {
+                    ua = 3;
+                }
+                if ( + uid === 0 && Util.isSupportedLs()) {
+                    var t = localStorage.getItem('ltz-tid');
+                    if (t) {
+                        tid = t;
+                    } else {
+                        tid = 't' + ((new Date().getTime()) ^ Math.random()).toString();
+                        localStorage.setItem('ltz-tid', tid);
+                    }
+                }
+                var send = function(parm) {
+                    var i = new Image();
+                    i.src = 'https://a1.lantouzi.com/imgs/tj.gif?' + Util.encodeURIJson(parm);
+                };
+                var getPageName = function() {
+                    var path = window.location.pathname.substring(1);
+                    path = path.replace(/^(.*)\/$/g, '$1');
+                    while ( !! path.match(/^(.*)\/index$/g)) {
+                        path = path.replace(/^(.*)\/index$/g, '$1');
+                    }
+                    path = path.replace(/\//g, '-');
+                    if (!path) {
+                        path = 'index';
+                    }
+                    return path;
+                };
+                var bindEvents = function() {
+                    Array.prototype.slice.call(document.getElementsByClassName('catch-me')).forEach(function(item, i) {
+                        item.addEventListener('click',
+                        function(e) {
+                            if (this.classList.contains('g-btn-disabled')) { //禁用按钮不统计点击
+                                return;
+                            }
+                            var self = this;
+                            var name = (self.attributes['data-action-name'] || {}).value;
+                            send({
+                                appid: appid,
+                                ua: ua,
+                                uid: uid,
+                                tid: tid,
+                                page_name: getPageName(),
+                                action_name: name
+                            });
+                        },
+                        false);
+                    });
+                };
+                setTimeout(function() {
+                    bindEvents();
+                },
+                500)
+            });
+        </script>
+        <script>
+            document.addEventListener('DOMContentLoaded',
+            function() {
+                var Track_Obj = {
+                    page_name: '',
+                    init: function() {
+                        Track_Obj.page_name = Track_Obj.getPageName();
+                        Track_Obj.bindEvents();
+                    },
+                    getPageName: function() {
+                        var path = window.location.pathname.substring(1);
+                        path = path.replace(/^(.*)\/$/g, '$1');
+                        while ( !! path.match(/^(.*)\/index$/g)) {
+                            path = path.replace(/^(.*)\/index$/g, '$1');
+                        }
+                        path = path.replace(/\//g, '-');
+                        if (!path) {
+                            path = 'index';
+                        }
+                        return path;
+                    },
+                    bindEvents: function() {
+                        //根据锚点class:track-click绑定mousedown事件，防止click跳转走
+                        if (window.jQuery) {
+                            $(document).on('mousedown', '.track-click',
+                            function(e) {
+                                if ($(this).hasClass('g-btn-disabled')) { //禁用按钮不统计点击
+                                    return;
+                                }
+                                var data = $(this).data(),
+                                category = data.category,
+                                action = data.action,
+                                label = data.label,
+                                value = data.value || 0,
+                                target = data.target;
+
+                                if (!category || !action || !label) {
+                                    return;
+                                }
+                                if (target) { //获取目标对象的val
+                                    value = $(target).val() || $(target).text();
+                                    //如果设了target但是没有拿到value,记录错误信息
+                                    if (!value) {
+                                        value = 'NA-' + target;
+                                    }
+                                }
+                                Track_Obj.track_event(category, action, label, value);
+                            });
+                        } else {
+                            Array.prototype.slice.call(document.getElementsByClassName('track-click')).forEach(function(v, i) {
+                                v.addEventListener('mousedown',
+                                function(e) {
+                                    if (this.classList.contains('g-btn-disabled')) { //禁用按钮不统计点击
+                                        return;
+                                    }
+                                    var item = this,
+                                    category = (item.attributes['data-category'] || {}).value,
+                                    action = (item.attributes['data-action'] || {}).value,
+                                    label = (item.attributes['data-label'] || {}).value,
+                                    value = (item.attributes['data-value'] || {}).value || 0,
+                                    target = (item.attributes['data-target'] || {}).value;
+
+                                    if (!category || !action || !label) {
+                                        return;
+                                    }
+                                    if (target) { //获取目标对象的val
+                                        var dom_target;
+                                        if (/^#.*/gi.test(target)) {
+                                            dom_target = document.getElementById(target.substring(1));
+                                        } else {
+                                            dom_target = document.getElementsByClassName(target.substring(1))[0];
+                                        }
+                                        if (dom_target) {
+                                            value = dom_target.value || dom_target.text || dom_target.innerText || dom_target.innerHTML;
+                                        }
+                                        //如果设了target但是没有拿到value,记录错误信息
+                                        if (!value) {
+                                            value = 'NA-' + target;
+                                        }
+                                    }
+                                    Track_Obj.track_event(category, action, label, value);
+                                });
+                            });
+                        }
+                    },
+                    track_event: function(category, action, label, value) {
+                        if (Track_Obj.page_name) {
+                            label = Track_Obj.page_name + '-' + label;
+                        }
+                        //统计到bd
+                        if (window.bd_track_event) {
+                            window.bd_track_event(category, action, label, value);
+                        }
+
+                        //TODO 统计到ga
+                    }
+                };
+
+                Track_Obj.init();
+                window.track_event = Track_Obj.track_event;
+
+            });
+        </script>
+    </body>
+
+</html>

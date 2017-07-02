@@ -1,0 +1,130 @@
+/* ==========================================================================
+	 全站Nav导航
+	 ========================================================================== */
+/*header*/
+.g-header {
+	height: 47px;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+	z-index: 20;
+	overflow: hidden;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.g-header-logo {
+	float: left;
+	width: 80px;
+	height: 40px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+.g-header-logo img {
+	width: 100%;
+}
+/* 我的账户 */
+.g-header-user, 
+.g-menuicon-label {
+	font-size: 1rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 48px;
+	height: 48px;
+	line-height: 48px;
+	cursor: pointer;
+	text-align: center;
+	-webkit-tap-highlight-color: transparent;
+}
+.g-header-user {
+	right: 50px;
+}
+.g-header-user > a, 
+.g-menuicon-label > a {
+	display: block;
+}
+.g-header-user-link,
+.g-header-menu-link {
+	color: #7D7C7C;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+	text-decoration: none !important;
+}
+.g-header-user-link.on,
+.g-header-menu-link.on {
+	color: #f63;
+}
+.g-header-menu-link .iconfont {
+	font-size: 1.3rem;
+}
+.g-header-user-link .iconfont {
+	font-size: 1.5rem;
+}
+/* 面包导航 */
+#g-menustate {
+	display: none;
+}
+/* 导航菜单 */
+.g-nav-list {
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	z-index: 200;
+	top: 48px;
+	left: 0;
+	padding: 0 28px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+	-webkit-overflow-scrolling: touch;
+	display: none;
+	-webkit-transition: background-color 0.35s linear;
+	transition: background-color 0.35s linear;
+}
+.g-nav-list.on {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+.g-nav-list .beta {
+	position: relative;
+	top: -8px;
+	display: inline-block;
+	width: 36px;
+	height: 16px;
+	line-height: 16px;
+	border-radius: 5px;
+	margin-left: 10px;
+	font-size: 12px;
+	text-align: center;
+	font-style: normal;
+	color: #fff;
+	background: #ff6633;
+}
+.g-nav-list-item:hover {
+	text-decoration: none;
+}
+.g-nav-list-item:visited {
+	color: #333;
+}
+.g-nav-list-item {
+	display: block;
+	margin-bottom: 5px;
+	padding: 16px 0 5px 0;
+	font-size: 1.1rem;
+	text-decoration: none;
+	color: #333;
+	opacity: 0;
+	border-bottom: 1px solid #ccc;
+	pointer-events: none;
+	-webkit-transform: scale(1.1) translateY(-24px);
+	transform: scale(1.1) translateY(-24px);
+	-webkit-transition: opacity 0.35s ease-out, -webkit-transform 0.35s ease-out;
+	transition: opacity 0.35s ease-out, transform 0.35s ease-out;
+}
+.g-nav-list-item.on {
+	opacity: 1;
+	pointer-events: auto;
+	-webkit-transform: none;
+	transform: none;
+}
+.g-nav-list-item.cur {
+	color: #ff6633;
+}

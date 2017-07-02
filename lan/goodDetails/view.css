@@ -1,0 +1,485 @@
+/*享乐计划商品情页wap*/
+/*public*/
+.section-container {
+	padding: 10px 0;
+	border-bottom: 10px solid #eee;
+}
+/*商品图片*/
+.slider-container {
+	margin-top: 10px;
+	height: 330px;
+	padding-bottom: 10px;
+	background-image: linear-gradient(to top, #f0f0f0, #fff 4px);
+}
+.slider-container .slider-inner,
+.slider-container .swiper-container {
+	height: 100%;
+}
+.slider-container .slider-item img {
+	margin: 0 auto;
+	width: 320px;
+	height: 320px;
+}
+.slider-container  .swiper-container-horizontal>.swiper-pagination {
+	bottom: 0;
+}
+.slider-container .swiper-pagination-bullet {
+	background: #ccc;
+	transition: all 0.3s;
+}
+.slider-container .swiper-pagination-bullet-active {
+	background: #ff6633;
+}
+/*标题*/
+.goods-title {
+	font-size: 1.2rem;
+	color: #000000;
+}
+.goods-sub-title {
+	color: #666666;
+	font-size: 0.8rem;
+}
+.goods-price {
+	margin-top: 5px;
+	color: #999999;
+	font-size: 1rem;
+}
+.goods-price .price {
+	color: #666666;
+	text-decoration: line-through;
+}
+/*属性选择*/
+.goods-attr-title {
+	float: left;
+	font-size: 0.875rem;
+	line-height: 42px;
+	color: #999;
+	margin-right: 10px;
+}
+.goods-attr-types {
+	text-align: left;
+	overflow: hidden;
+}
+.goods-attr-item {
+	display: inline-block;
+	padding: 5px 2%;
+	margin: 5px 4% 5px 0;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	color: #666666;
+	text-align: center;
+	font-size: 0.9rem;
+}
+.goods-attr-item.is-soldout {
+	color: #e2e1e1;
+	border-color: #e2e1e1;
+}
+.goods-attr-item.cur {
+	border-color: #ff6633;
+}
+/*存入期限*/
+.goods-price-section {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
+}
+/*享乐劵选择*/
+.enjoy-coupons {
+	color: #999;
+	border-bottom: 1px solid #eee;
+	padding: 10px 0;
+	position: relative;
+	margin-top: 5px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.enjoy-coupons .value {
+	position: absolute;
+	display: inline-block;
+	right: 0;
+	top: 10px;
+	vertical-align: middle;
+}
+.enjoy-coupons.head .value {
+	top: 0;
+}
+.enjoy-coupons .value strong {
+	color: #ff6633;
+	font-weight: normal;
+}
+.enjoy-coupons .has .value {
+	color: #ff6633;
+}
+.enjoy-coupons .has .value .iconfont {
+	font-size: 0.8rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+/*只能积分+钱的购买方案*/
+.must-jifen {
+	border-bottom: 1px solid #eee;
+}
+.must-jifen .value {
+	float: right;
+	margin-top: 10px;
+	color: #333333;
+}
+/*积分或投资劵减免方案*/
+.discount-type-section {
+	
+}
+.discount-type-section .main {
+	padding: 5px 0;
+	border-bottom: 1px solid #eee;
+}
+.discount-type-section .main .value {
+	margin-top: 10px;
+}
+.discount-type-section .tips {
+	color: #cccccc;
+	font-size: 0.75rem;
+	padding-bottom: 5px;
+}
+.discount-type-section .enjoy-coupons {
+	margin-top: 0;
+}
+/*金额显示*/
+.goods-buy-info {
+	padding: 10px 0 5px 0;
+}
+.goods-buy-info .card {
+	display: inline-block;
+	width: 46%;
+	padding-left: 3%;
+	color: #666666;
+}
+.goods-buy-info .card:first-child {
+	width: 47%;
+	padding-right: 2%;
+	padding-left: 0;
+	border-right: 1px solid #eee;
+}
+.goods-buy-info .card .key .sub {
+	margin-top: 2%;
+	display: inline-block;
+	font-size: 0.75rem;
+	color: #cccccc;
+}
+.goods-buy-info .card .value {
+	margin-top: 5px;
+	color: #ff6633;
+	font-weight: bolder;
+}
+/*数量选择*/
+.goods-buy-action {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	z-index: 10;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.goods-buy-action .number-select {
+	float: left;
+	width: 50%;
+	line-height: 50px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+	color: #999;
+}
+.goods-buy-action .num-control {
+	display: inline-block;
+	margin-left: 5px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.goods-buy-action .number-spin,
+.goods-buy-action .number {
+	display: inline-block;
+	font-size: 18px;
+	width: 35px;
+	height: 30px;
+	text-align: center;
+	color: #999;
+}
+.goods-buy-action .number {
+	display: inline-block;
+	font-size: 18px;
+	width: 35px;
+	height: 30px;
+	text-align: center;
+	color: #999;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.goods-buy-action .buy {
+	float: right;
+	width: 50%;
+	margin: 0;
+}
+.goods-buy-action .enjoy-buy-btn {
+	display: block;
+	width: 100%;
+	height: 51px;
+	line-height: 51px;
+	text-align: center;
+	color: #fff;
+	background: #ff6633;
+	-webkit-transition: opacity 0.8s;
+	transition: opacity 0.8s;
+}
+.goods-buy-action .enjoy-buy-btn.is-soldout {
+	background: #aaa;
+}
+.goods-buy-action .enjoy-buy-btn .text {
+	font-size: 1.2rem;
+}
+.goods-buy-action .enjoy-buy-btn .info {
+	font-size: 0.7rem;
+}
+@media screen and (min-width: 375px) {
+	.goods-buy-action .enjoy-buy-btn .info {
+		font-size: 0.9rem;
+	}	
+}
+/*常见问题*/
+.goods-qa {
+	padding: 15px 0;
+	margin-bottom: 55px;
+}
+.goods-qa-title {
+	font-size: 1.2rem;
+	color: #333333;
+	font-weight: normal;
+	text-align: center;
+}
+.goods-qa-icon {
+	color: #333333;
+	font-size: 1.2rem;
+	margin-right: 5px;
+}
+.goods-qa .question {
+	margin: 15px 0 5px 0;
+	font-weight: normal;
+	color: #333;
+}
+.goods-qa .answer {
+	color: #666;
+}
+.goods-qa .answer .link {
+	color: #666;
+	text-decoration: underline;
+}
+/*享乐劵列表*/
+.goods-coupons-list {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px 0;
+	background: #f5f5f5;
+	z-index: 100;
+	font-size: 0.8rem;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+/*享乐劵*/
+.coupon-card {
+	position: relative;
+	width: 85%;
+	padding: 10px 3%;
+	margin: 20px auto;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	color: #333333;
+	background: #fff;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.coupon-card.cur {
+	border: 1px solid #ff6633;
+}
+.left-border,
+.right-border {
+	content: " ";
+	display: block;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #eee;
+	border-radius: 50%;
+	background: #f5f5f5;
+	position: absolute;
+	top: 30px;
+}
+.coupon-card.cur .left-border,
+.coupon-card.cur .right-border{
+	border: 1px solid #ff6633;
+}
+.left-border {
+	left: -8px;
+}
+.right-border {
+	right: -8px;
+}
+.left-border i,
+.right-border i {
+	display: block;
+	width: 9px;
+	height: 18px;
+	background: #f5f5f5;
+}
+.left-border i {
+	width: 7px;
+	margin-left: -1px;
+}
+.right-border i {
+	margin-left: 10px;
+}
+.coupon-card .title {
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #eee;
+	font-weight: normal;
+}
+.coupon-card .main {
+	margin-top: 15px;
+	width: 80%;
+	font-size: 0.8rem;
+}
+.coupon-card .info {
+	padding-bottom: 10px;
+}
+.coupon-card .date {
+	font-size: 0.7rem;
+}
+.coupon-card .amount {
+	position: absolute;
+	right: 3%;
+	bottom: 10px;
+}
+.coupon-card .amount strong {
+	font-weight: normal;
+	font-size: 1.5rem;
+	color: #f36145;
+}
+.not-use {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	padding: 5px 0;
+	margin-bottom: 10px;
+}
+/*视频组件*/
+.goods-video-container video {
+	width: 100%;
+}
+.goods-video-container .title {
+	color: #666;
+	font-size: 0.8rem;
+	margin: 3px auto;
+	text-align: center;
+}
+/*缺货预约*/
+.mark-dialog > h3 {
+	padding-bottom: 10px;
+	color: #f63;
+	line-height: 20px;
+	border-bottom: 1px solid #eee;
+}
+.mark-dialog > .al-close {
+	right: 10px;
+	top: 5px;
+	color: #999;
+}
+.mark-dialog > .al-close > .iconfont {
+	font-size: 1.5em;
+}
+.mark-dialog-content {
+	padding: 15px 0;
+	text-align: left;
+}
+.mark-dialog-content input {
+	padding: 0 5px;
+	width: 160px;
+	height: 32px;
+	border: 1px solid #666;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.mark-mobile {
+	padding-top: 6px;
+}
+.mark-error {
+	padding-left: 70px;
+	color: #f63;
+	padding-top: 5px;
+	font-size: 12px;
+}
+@media (max-width:320px) {
+	.mark-dialog-content input {
+		width: 140px;
+	}
+}
+/*积分抵扣组件*/
+.goods-jifen-container {
+	border-bottom: 1px solid #eee;
+	padding: 10px 0;
+	color: #999;
+	text-align: right;
+	position: relative;
+}
+.goods-jifen-container .title {
+	color: #999;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+.goods-jifen-container .title.s {
+	color: #999;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+.goods-jifen-container .value {
+	vertical-align: middle;
+}
+.goods-jifen-container .jifen {
+	display: inline-block;
+	margin-right: 5px;
+}
+.goods-jifen-container .jifen-action {
+	display: inline-block;
+	text-align: center;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	line-height: 25px;
+	border: 1px solid #eee;
+	margin: 0 3%;
+}
+.goods-jifen-container .multi .tips {
+	position: absolute;
+	padding-bottom: 0;
+	bottom: 2px;
+	border-bottom: 0;
+}
+/*秒杀倒计时*/
+.goods-countdown {
+	color: #999;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 5px;
+}
+.goods-countdown .tag {
+	background: #ff9168;
+	color: #fff;
+	margin-right: 10px;
+	font-size: 0.75rem;
+	padding: 2px 3px;
+}
+.goods-countdown .name {
+	margin-right: 5px;
+}

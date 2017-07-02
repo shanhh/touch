@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<title>Document</title> 
+</head>
+<body>
+	<div>
+		<label>
+			手机号: <input type="text" id="tel">
+		</label>
+		<br/>
+		<label>
+			验证码: <input type="text" id="waite">
+			<button id="btn">点击发送验证码</button>
+		</label>
+
+	</div>
+	<input type="submit" value="登录">
+</body>
+<script>
+	let submitEle = document.querySelector('input[type="submit"]'),
+		tel = document.querySelector('#tel'),
+		waite = document.querySelector('#waite'),
+		btn = document.querySelector('#btn');
+
+	//点击发送验证码,一分钟内不再允许点击
+	btn.addEventListener('click', function () {
+		let disabled = document.createAttribute('disabled'),
+			time = 60;
+		disabled.nodeValue = 'disabled';
+		this.setAttributeNode(disabled);
+		this.innerHTML = time;
+		function daoJiShi() {
+			time--;
+			setTimeout(() => {
+				time <= 0 && this.removeAttributeNode(disabled);
+				this.innerHTML = time;
+				time >= 0 && daoJiShi.bind(this)();
+			}, 1000);
+			
+		}
+		daoJiShi.bind(this)();
+	});
+
+	//成功后点击跳转登录成功页面
+	submitEle.addEventListener('click', function () {
+		//对手机号进行表单验证
+		/^1((35)|(38)|(58)|(59))\d{8}/.test(tel.value) && (location.href = 'http://www.baidu.com');
+	});
+</script>
+</html>
